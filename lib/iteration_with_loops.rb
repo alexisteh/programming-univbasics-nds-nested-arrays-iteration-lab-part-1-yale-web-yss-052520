@@ -8,9 +8,8 @@ def find_even_values(src)
   while cout < src.length do 
     cin = 0 
     while cin < src[cout].length do 
-      if src[cout][cin] % 2 == 0 do 
+      if src[cout][cin] % 2 == 0 
         puts src[cout][cin] 
-      end 
       cin += 1 
     end 
     cout += 1 
