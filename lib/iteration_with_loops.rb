@@ -10,6 +10,7 @@ def find_even_values(src)
     while cin < src[cout].length do 
       if src[cout][cin] % 2 == 0 
         puts src[cout][cin] 
+      end 
       cin += 1 
     end 
     cout += 1 
